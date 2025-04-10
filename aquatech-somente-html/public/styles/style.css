@@ -1,0 +1,248 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    background-color: black;
+    border-bottom: solid rgb(143, 219, 236) 2px;
+}
+
+.header .container .titulo{
+    color: rgb(131, 192, 246);
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.header .container .navbar{
+    color: aliceblue;
+
+    list-style-type: none;
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.agora a{
+    font-weight: 700;
+}
+
+
+
+
+/*BANNER*/
+.banner{
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 500px;
+}
+
+.banner .container{
+    color: aliceblue;
+    width: 500px;
+    height: 100%;
+    align-items: center;
+}
+
+.banner .container p{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+/*Login*/
+.login{
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 600px;
+    color: rgb(157, 13, 116);
+    display: flex;  
+}
+
+.login .container{
+    justify-content: center;
+}
+
+.card-card-login{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    padding: 40px;
+}
+
+.card-card-login h2{
+    margin: 0;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/*FORMULARIO LOGIN E CADASTRO*/
+
+.formulario .campo{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+.campo{
+    margin: 15px;
+}
+
+.campo span{
+    font-weight: 600;
+}
+
+.campo input{
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 221, 255) solid 2px;
+
+}
+.botao{
+    margin-top: 5px;
+    color: aliceblue;
+    background-color: rgb(186, 47, 105);
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    width: 90%;
+    height: 35px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+/*CADASTRO*/
+.Cadastro{
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 600px;
+    color: rgb(157, 13, 116);
+    display: flex;  
+}
+
+.Cadastro .container{
+    justify-content: center;
+}
+
+
+.card-card-cadastro{
+    background-color: rgb(235, 234, 234);
+    border-radius: 10px;
+    text-align: center;
+    width: 36%;
+    padding: 20px;
+}
+
+.card-card-cadastro h2{
+    margin: 0;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SOCIAL*/
+.social{
+    background-color: aliceblue;
+}
+
+.social .container{
+    justify-content: space-evenly;
+}
+
+.boxes{
+    width: 100%;
+    display: flex;
+    padding: 80px;
+    justify-content: space-evenly;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.box img{
+    width: 80px;
+
+}
+
+.box p{
+    width: 200px; /* Defina a largura desejada */
+    text-align: justify; /* Opcional: Justifica o texto */
+    margin: 0 auto; /* Centraliza o texto horizontalmente */
+}
+
+.box h4{
+    color: crimson;
+    font-weight: 700;
+}
+
+
+
+
+
+/*FOOTER*/
+.footer{
+    background-color: rgb(40, 143, 171);
+}
+
+.footer .container{
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    height: 200px;
+}
